@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+html{
+  font-size: 12px;
+}
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.5)),url('../public/Quiz-bg.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#root{
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width : 776px) {
+  html{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width : 1056px) {
+  html{
+    font-size: 16px;
+  }
+}
